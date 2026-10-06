@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    background-color: #f2f2f2;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+}
+
+header{
+    background-color: #555555;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+header h1{
+    margin: 0;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+main{
+    width: 400px;
+    margin: 60px auto;
+}
+
+.login{
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+.login h2{
+    text-align: center;
+    color: #444444;
+    margin-top: 0;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+.descricao{
+    text-align: center;
+    color: #777777;
+    margin-bottom: 30px;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+button{
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #666666;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background-color: #444444;
+}
+
+.cadastro{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.cadastro a{
+    color: #555555;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    color: #777777;
+}
